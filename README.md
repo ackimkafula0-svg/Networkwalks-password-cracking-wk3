@@ -9,7 +9,7 @@
 
 A hands-on password-auditing lab from the NetworkWalks Cybersecurity & Ethical Hacking Program (Batch B084): using **John the Ripper (JTR)** via the command line, and the NetworkWalks Hash Calculator & Password Cracker web tools, to recover the passwords of protected PDFs on Ubuntu.
 
-🔗 Project post: [https://lnkd.in/p/dzWHsqhZ](#)
+🔗 Project post: [LinkedIn](https://lnkd.in/p/dzWHsqhZ)
 
 ---
 
