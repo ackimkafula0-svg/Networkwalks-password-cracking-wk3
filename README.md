@@ -9,7 +9,7 @@
 
 A hands-on password-auditing lab from the NetworkWalks Cybersecurity & Ethical Hacking Program (Batch B084): using **John the Ripper (JTR)** via the command line, and the NetworkWalks Hash Calculator & Password Cracker web tools, to recover the passwords of protected PDFs on Ubuntu.
 
-🔗 Project post: [LinkedIn](#)
+🔗 Project post: [https://lnkd.in/p/dzWHsqhZ](#)
 
 ---
 
@@ -129,6 +129,8 @@ Installing John the Ripper on Ubuntu.
 ### 2. PDF Hash Extraction
 Running `pdf2john.py` against the target PDF and generating `hash1.txt`.
 
+<img width="1360" height="761" alt="image" src="https://github.com/user-attachments/assets/d07bc048-77f9-4cc8-8b3c-c632bb8d5b9b" />
+
 ### 3. Password Audit Execution
 Running `john --wordlist=...` against `hash1.txt` — dictionary attack in progress.
 <img width="1360" height="761" alt="Screenshot from 2026-11-20 00-51-37" src="https://github.com/user-attachments/assets/55539ae4-b75d-4eac-8bed-8c359274c32d" />
@@ -142,9 +144,11 @@ Running `john --show hash1.txt` to reveal the recovered password, then reopening
 
 ### 5. Third PDF — NetworkWalks Hash Calculator & Password Cracker
 Pasting the extracted `$pdf$...` hash into the Password Cracker tool, selecting the `rockyou.txt` wordlist, and running the dictionary attack to completion.
-<img width="1360" height="761" alt="Screenshot from 2026-11-20 00-56-56" src="https://github.com/user-attachments/assets/305de26b-f780-4482-87fa-10e34ab048d4" />
+<img width="1360" height="761" alt="Screenshot from 2026-11-20 01-04-42" src="https://github.com/user-attachments/assets/b6d7d120-4f3c-4c1a-94f8-c47b124e1398" />
 
 ## Result
+<img width="1360" height="761" alt="Screenshot from 2026-11-20 01-04-26" src="https://github.com/user-attachments/assets/415966ae-4188-49f2-b85b-c041b90799dd" />
+
 
 The passwords for the protected PDFs were successfully recovered — two via John the Ripper on the Ubuntu CLI, and one via the NetworkWalks Hash Calculator and Password Cracker web tools — and verified by reopening each file. The following flags were captured from the recovered PDF content:
 
